@@ -14,6 +14,7 @@ class Shoe
   end
   
   def brand=(brand)
+    @brand = brand
     Shoe.all.map
   end
 
