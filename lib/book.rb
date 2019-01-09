@@ -12,7 +12,8 @@ class Book
   end
   
   def GENRES
-    Book.map
+    Book.map.all do |genre|
+  end
   end
 
   def turn_page
