@@ -7,6 +7,10 @@ class Book
     @title = title
   end
 
+  def self.all
+    @@all
+  end
+  
   def GENRES
     Book.map
   end
