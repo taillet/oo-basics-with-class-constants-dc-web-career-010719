@@ -12,7 +12,7 @@ class Book
   end
   
   def GENRES
-    Book.map.all {|genre| genre.genre}
+    Book.map.all {|GRENRE| GRENRE.genre}
   end
 
   def turn_page
