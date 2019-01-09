@@ -15,7 +15,8 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    Shoe.all.map
+    BRANDS << brand
+    BRANDS.uniq
   end
 
 end
