@@ -8,7 +8,7 @@ class Book
   end
 
   def GENRES
-    Book.@@all 
+    Book.map
   end
 
   def turn_page
