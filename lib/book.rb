@@ -10,13 +10,6 @@ class Book
     @title = title
   end
 
-  def self.all
-    @@all
-  end
-  
-  def GENRES
-    Book.map.all {|GRENRE| GRENRE.genre}
-  end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
