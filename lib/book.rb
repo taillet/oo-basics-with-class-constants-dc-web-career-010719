@@ -12,7 +12,7 @@ class Book
   end
   
   def GENRES
-    Book.map.all do |genre| 
+    Book.map.all {|genre| genre.genre}
       
     end
   end
